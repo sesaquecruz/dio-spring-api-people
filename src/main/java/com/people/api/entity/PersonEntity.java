@@ -10,6 +10,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
+@EqualsAndHashCode
 @Builder
 public class PersonEntity {
     @Id
